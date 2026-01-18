@@ -51,7 +51,7 @@ sumTwoNumbers()
 // 7 — Calcul du prix avec taxe
 
 function priceWithTax(price , tax) {
-  var taxAmount = price * tax
+  var taxAmount = price * (tax / 100)
   var total =  price + taxAmount
    return total
 }
